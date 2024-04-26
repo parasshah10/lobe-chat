@@ -80,7 +80,7 @@ const OpenAI: ModelProviderCard = {
       displayName: 'GPT-4',
       functionCall: true,
       id: 'gpt-4',
-      tokens: 8192,
+      tokens: 100_000,
     },
     {
       displayName: 'GPT-4 (0613)',
