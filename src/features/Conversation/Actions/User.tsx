@@ -6,7 +6,7 @@ import { RenderAction } from '../types';
 import { useCustomActions } from './customAction';
 
 export const UserActionsBar: RenderAction = memo(({ onActionClick }) => {
-  const { regenerate, edit, copy, divider, del , delAndRegenerate} = useChatListActionsBar();
+  const { regenerate, edit, copy, divider, del } = useChatListActionsBar();
   const { translate, tts } = useCustomActions();
 
   return (
